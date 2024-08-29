@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 320px 190px 190px 77px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px ;
+      justify-content: center;
+      height: 780px;
+      width: 804px;
+      background-color: black;
+
+      
+    }
+    .box-red {
+      height: 414px;
+      width: 320px;
+      background-color: #e72f24;
+    }
+    .box-two {
+      height: 414px;
+      width: 448px;
+      background-color: #F0F1EC;
+      grid-column-start: 2;
+      grid-column-end: 4;
+        }
+    .box-three {
+      height: 314px;
+      width: 320px;
+      background-color: #F0F1EC;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    .box-four {
+      height: 314px;
+      width: 378px;
+      background-color: #F0F1EC;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+    .box-Blue {
+      height: 130px;
+      width: 50px;
+      background-color: #004592;
+      border-bottom: 10px;
+      grid-column-start: 4;
+      grid-column-end: 5;
+
+
+    }
+    .box-six {
+      height: 20px;
+      width: 320px;
+      background-color: #F0F1EC;
+
+    }
+    .box-yellow {
+      height: 20px;
+      width: 198px;
+      background-color: #F9D01E;
+      grid-row-start: 5;
+      grid-column-start: 2;
+    }
+    .box-black {
+      height: 20px;
+      width: 180px;
+      background-color: #232629;
+      grid-row-start: 5 ;
+      grid-column-start: 3;
+    }
+    .box-nine {
+      height: 213px;
+      width: 50px;
+      background-color: #F0F1EC;
+      grid-row-start: 3;
+      grid-column-start: 4;
+    }
+    
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box-red"></div>
+    <div class="box-two"></div>
+    <div class="box-three"></div>
+    <div class="box-four"></div>
+    <div class="box-Blue"></div>
+    <div class="box-six"></div>
+    <div class="box-yellow"></div>
+    <div class="box-black"></div>
+    <div class="box-nine"></div>
+  </div>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
